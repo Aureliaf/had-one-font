@@ -1,0 +1,228 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    color: #4d4d4d;
+    font-weight: 400;
+    line-height: 36px;
+    background-color: #fffbfe;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+
+/* TEXTE */
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 60px;
+}
+
+h1::after {
+    content: "";
+    display: block;
+    width: 54px;
+    height: 8px;
+    position: relative;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+    background: url(img/separation-noire.png);
+}
+
+.titre-blanc {
+    color: #fff;
+}
+
+.titre-blanc::after {
+    content: "";
+    display: block;
+    width: 54px;
+    height: 8px;
+    position: relative;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+    background: url(img/separation-rose.png);
+}
+
+.texte-editable {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 105px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    padding: 40px 0 140px 0;
+}
+
+
+/* LAYOUT */
+
+.container {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.titre {
+    width: 376px;
+    height: 376px;
+    display: block;
+    margin: 0 auto;
+    padding: 195px 0px 195px 0px;
+}
+
+.header {
+    background: url(img/bg-header.jpg) center top no-repeat #facedb;
+    background-size: cover;
+}
+
+.col {
+    width: 674px;
+    margin: 120px auto 140px;
+}
+
+
+/* ALPHABET */
+
+.alphabet {
+    background-color: #262b47;
+}
+
+.lettres {
+    font-size: 55px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0.05em;
+    padding: 120px 0 120px 0;
+}
+
+.uppercase {
+    
+    text-transform: uppercase;
+    width: 500px;
+    display: inline-block;
+}
+
+.lowercase {
+    width: 500px;
+    display: inline-block;
+}
+
+.espace {
+    margin-bottom: 55px;
+}
+
+
+/* GLYPHES */
+
+.glyphes {
+    background-color: #facedb;
+}
+
+.espace--glyphes {
+    margin-bottom: 65px;
+}
+
+.symboles {
+    font-size: 85px;
+    text-align: center;
+    padding: 120px 0 120px 0;
+    color: rgba(32, 31, 36, 0.8);
+    letter-spacing: 0.05em;
+    width: 674px;
+}
+
+
+/* CARACTERISTIQUES */
+
+.caracteristiques {
+    height: 1530px;
+    margin: 140px 0 140px 0;
+    box-shadow: 0 0 60px rgba(35,35,35,.1);
+}
+
+.bloc {
+    width: 510px;
+    height: 510px;
+    float: left;
+}
+
+.bloc__lettre {
+    background-color: #facedb;
+}
+
+.lettre-e {
+    padding: 159.5px 132px;
+}
+
+.lettre-w {
+    padding: 164px 120px;
+}
+
+.bloc--large {
+    width: 1020px;
+    background-color: #262b47;
+}
+
+.img-numerals {
+    padding-left: 59px;
+}
+
+.numerals {
+    padding-top: 110px;
+}
+
+.col2 {
+    width: 352px;
+    padding-top: 113px;
+}
+
+
+/* GRAISSES */
+
+.blue {
+    background-color: #262b47;
+    
+}
+
+.graisses {
+   padding: 120px 0 140px 0;
+}
+
+
+.exemples {
+    padding: 40px 0 110px 0;
+}
+
+/* TELECHARGER */
+
+.telecharge {
+    background-color: #262b47;
+    height: 300px;
+}
+
+.btn-telechargement {
+    width: 222px;
+    height: 222px;
+    display: block;
+    padding: 39px 0 39px 0;
+}
+
+
+/* Balises utiles */
+
+.center {
+    margin: 0 auto;
+}
+
+
+
+
